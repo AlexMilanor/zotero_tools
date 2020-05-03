@@ -12,10 +12,6 @@ if (Translator.BetterBibTeX){
         }
     }
 
-// Adding key field
-    const chave = item.callNumber;
-    reference.add({name:'key', value:chave});
-
 // Making the authors first name abbreviated
     for (var i=0; i < item.creators.length; i++){
 
