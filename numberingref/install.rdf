@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	
+	<Description about="urn:mozilla:install-manifest">
+        <em:id>NumberingRef@puc-rio.br</em:id>
+        <em:unpack>true</em:unpack>
+		<em:name>NumberingRef</em:name>
+		<em:version>0.1</em:version>
+		<em:description>Sample zotero plugin to number items in a collection</em:description>
+		<em:creator>Alexandre Almeida</em:creator>
+		<em:type>2</em:type> <!-- type=extension -->
+		
+		<em:targetApplication>
+			<Description>
+				<em:id>zotero@chnm.gmu.edu</em:id>
+				<em:minVersion>4.0</em:minVersion>
+				<em:maxVersion>5.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+	</Description>
+</RDF>

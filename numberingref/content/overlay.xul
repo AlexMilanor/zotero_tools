@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://numberingref/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://numberingref/locale/overlay.dtd">
+
+
+<overlay id="NumberingRef-overlay"
+     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <menupopup id="menu_ToolsPopup">
+        <menuitem id="zotnumbering-run"
+                  label="&numberingref.label;" 
+                  oncommand="Zotero.NumberingRef.run(ZoteroPane.getSelectedCollection());"/>
+    </menupopup>
+    
+    <script src="chrome://zotero/content/include.js"/>
+    <script src="chrome://numberingref/content/include.js"/>
+</overlay>

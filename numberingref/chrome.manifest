@@ -1,0 +1,5 @@
+content numberingref                        content/
+locale  numberingref  en-US                 locale/en-US/
+skin    numberingref  default               skin/
+
+overlay  chrome://zotero/content/zoteroPane.xul chrome://numberingref/content/overlay.xul
